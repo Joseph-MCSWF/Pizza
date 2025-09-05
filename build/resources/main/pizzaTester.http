@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/pizza
+content-type: application/json
+
+{
+  "id": 1,
+  "crust": "stuffed",
+  "price": 50.00,
+  "size": "large",
+  "toppings": "pepperoni",
+  "hasCheese": true
+}
+
+###
+
+GET http://localhost:8080/api/pizza/1
+Accept: application/json
